@@ -23,7 +23,21 @@ export const changeProduct = (product)=>
     return (dispatch) =>
       {
         api.put('/products/'+product.id , product)
-        .then((res) =>{ dispatch(actions.add(res.data))})
+        .then((res) =>{ dispatch(actions.edit(res.data))})
         .catch(console.log)
+        window.location.reload(false)         
       }
 }
+
+export const deleteProduct = (product)=>
+{
+    return (dispatch) =>
+      {
+        api.delete('/products/'+product)
+        .then((res) =>{ dispatch(actions.remove(res.data))})
+        .catch(console.log)
+        window.location.reload(false)
+                 
+      }
+}
+

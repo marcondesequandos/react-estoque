@@ -1,6 +1,5 @@
 import React , {useState} from 'react'
 import "./style.css";
-import {actions} from '../../store/produtos'
 import { useDispatch } from 'react-redux'
 import {insertProduct} from '../../store/FetchActions'
 export default function AddProduct() {
@@ -20,10 +19,23 @@ const dispatch = useDispatch()
 
     function formChange(e)
     {
+        setForm({
+           ...form , [e.target.name] : e.target.value
+        })
     }
 
     function onSubmit(e)
     {
+        e.preventDefault()       
+        dispatch(insertProduct(form))
+        setForm({
+            nome : '',
+            modelo : '',
+            cor : '',
+            precoCompra : '',
+            precoVenda : '',
+            quantidade : 1,
+        })
        
     }
 

@@ -1,58 +1,31 @@
 {
   "products": [
     {
-      "id": 1,
-      "nome": "Boneca",
-      "modelo": "Barbie",
-      "cor": "Branco",
-      "precoCompra": "2,50",
-      "precoVenda": "10,50",
-      "quantidade": 10
-    },
-    {
-      "id": 2,
       "nome": "Carrinho",
-      "modelo": "Action",
-      "cor": "Azul",
-      "precoCompra": "22,50",
-      "precoVenda": "102,50",
-      "quantidade": "10"
-    },
-    {
-      "id": 3,
-      "nome": "Bola",
-      "modelo": "Bola Capotão",
-      "cor": "Amarela",
-      "precoCompra": "9,50",
-      "precoVenda": "16,50",
-      "quantidade": 7
-    },
-    {
-      "id": 4,
-      "nome": "Urso de Pelucia",
-      "modelo": "Panco",
-      "cor": "Marrom",
-      "precoCompra": "10,67",
-      "precoVenda": "22,50",
-      "quantidade": "20"
-    },
-    {
-      "nome": "Carro de Corrida",
-      "modelo": "Veloster",
-      "cor": "Prata",
-      "precoCompra": "55,55",
-      "precoVenda": "156,67",
-      "quantidade": "15",
-      "id": 5
-    },
-    {
-      "nome": "Boneco Homem Aranha",
-      "modelo": "CH-3333",
+      "modelo": "Hotweels",
       "cor": "Vermelho",
-      "precoCompra": "43,45",
-      "precoVenda": "156,78",
-      "quantidade": "10",
-      "id": 6
+      "precoCompra": "22,50",
+      "precoVenda": "37,90",
+      "quantidade": "25",
+      "id": 1
+    },
+    {
+      "nome": "Bola",
+      "modelo": "Capotão",
+      "cor": "Verde",
+      "precoCompra": "33,20",
+      "precoVenda": "56,90",
+      "quantidade": "11",
+      "id": 2
+    },
+    {
+      "nome": "Jogo de Tabuleiro",
+      "modelo": "Perfil",
+      "cor": "Azul",
+      "precoCompra": "33,50",
+      "precoVenda": "67,90",
+      "quantidade": "20",
+      "id": 3
     }
   ]
 }
